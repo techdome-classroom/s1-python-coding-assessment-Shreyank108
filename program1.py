@@ -11,6 +11,6 @@ class Solution:
         def dfs(r,c): 
             grid[r][c]='w' 
         
-        for dr,dc in directions:  
+            for dr,dc in directions:  
             nr,nc= r+dr, c+dc            
         
