@@ -22,5 +22,6 @@ class Solution:
             for c in range(cols): 
                 if grid[r][c] =='L': 
                     dfs(r,c) 
-                    num_islands +=1              
+                    num_islands +=1  
+                                 
         
