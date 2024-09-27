@@ -23,5 +23,5 @@ class Solution:
                 if grid[r][c] =='L': 
                     dfs(r,c) 
                     num_islands +=1  
-                                 
+        return num_islands             
         
