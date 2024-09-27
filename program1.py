@@ -6,10 +6,11 @@ class Solution:
             return 0 
         
         rows,cols = len(grid),len(grid[0]) 
-        direction = [(0,1),(1,0),(0,-1),(-1,0)]
+        directions = [(0,1),(1,0),(0,-1),(-1,0)]
         
         def dfs(r,c): 
             grid[r][c]='w' 
         
-        for dr,dc in directions: 
+        for dr,dc in directions:  
+            nr,nc= r+dr, c+dc            
         
