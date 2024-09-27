@@ -12,5 +12,5 @@ class Solution:
             grid[r][c]='w' 
         
             for dr,dc in directions:  
-            nr,nc= r+dr, c+dc            
+                nr,nc= r+dr, c+dc            
         
