@@ -12,5 +12,6 @@ class Solution:
             grid[r][c]='w' 
         
             for dr,dc in directions:  
-                nr,nc= r+dr, c+dc            
+                nr,nc= r+dr, c+dc    
+                if 0<= nr < rows and 0<=nc<cols and grid[nr][nc]=='L'         
         
